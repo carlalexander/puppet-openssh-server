@@ -1,6 +1,6 @@
 # OpenSSH Server Module
 
-Puppet module is designed to manage OpenSSH Server.
+Puppet module designed to manage OpenSSH Server.
 
 ## Requirements
 
