@@ -28,7 +28,7 @@ class openssh_server (
 
   class { 'openssh_server::config':
     port        => $port,
-    allow_users => $allow_users
+    allow_users => $allow_users,
     require     => Class['openssh_server::package'],
     notify      => Class['openssh_server::service'],
   }
