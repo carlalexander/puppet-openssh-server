@@ -1,3 +1,18 @@
+# Class: openssh_server::params
+# 
+# This class manages OpenSSH Server parameters.
+# 
+# Parameters:
+#
+# There are no default parameters for this class.
+#
+# Actions:
+#
+# Requires:
+#
+# Sample Usage:
+#
+# This class file is not called directly
 class openssh_server::params {
   $port              = 22
   $permit_root_login = 'no'
