@@ -15,7 +15,7 @@
 # This class file is not called directly
 class openssh_server::config(
   $port         = $openssh_server::params::port,
-  $allow_users  = undef
+  $allow_users  = undef,
   $allow_groups = undef
 ) inherits openssh_server::params {
   File {
