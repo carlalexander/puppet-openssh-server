@@ -20,7 +20,7 @@
 # }
 class openssh_server (
   $port         = $openssh_server::params::port,
-  $allow_users  = undef
+  $allow_users  = undef,
   $allow_groups = undef
 ) inherits openssh_server::params {
   class { 'openssh_server::package':
