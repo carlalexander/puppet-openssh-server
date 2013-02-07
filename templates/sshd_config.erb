@@ -27,7 +27,7 @@ LoginGraceTime 120
 PermitRootLogin <%= scope.lookupvar('openssh_server::params::permit_root_login')%>
 StrictModes yes
 <% if allow_users %>AllowUsers <%= allow_users %><% end %>
-<% if allow_users %>AllowGroups <%= allow_groups %><% end %>
+<% if allow_groups %>AllowGroups <%= allow_groups %><% end %>
 
 RSAAuthentication yes
 PubkeyAuthentication yes
