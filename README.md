@@ -6,7 +6,7 @@ Puppet module designed to manage OpenSSH Server.
 
 Currently only tested using Ubuntu Quantal.
 
-## Setup
+## Usage
 
 To install and bootstrap your OpenSSH server, simply add the class defintion:
 
